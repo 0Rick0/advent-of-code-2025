@@ -56,8 +56,8 @@ def solve_part2(inp: list[str]) -> int:
 
 
 def main():
-    # test(solve_part1(example_input.splitlines()), 357)
-    # print(solve_part1(open('input.txt').read().splitlines()))
+    test(solve_part1(example_input.splitlines()), 357)
+    print(solve_part1(open('input.txt').read().splitlines()))
 
     test(solve_part2(example_input.splitlines()), 3121910778619)
     print(solve_part2(open('input.txt').read().splitlines()))
